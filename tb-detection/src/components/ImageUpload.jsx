@@ -53,7 +53,7 @@ function ImageUpload() {
     console.log(localStorage.getItem("fileName"));
     const uploadedFile = localStorage.getItem("fileName");
     try{
-      const response = await axios.post("http://localhost:5000/api/fetch-data", {
+      const response = await axios.post("https://tb-detection-backend.onrender.com/api/fetch-data", {
         imageName: uploadedFile,
       });
 
