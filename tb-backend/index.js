@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-    origin: "https://tb-detection-backend.onrender.com", // Replace with your frontend URL
+    origin: "https://tb-detection-ten.vercel.app", // Replace with your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   };
